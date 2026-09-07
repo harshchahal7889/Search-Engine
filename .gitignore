@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+*.egg-info/
+
+# C++
+*.o
+*.obj
+*.exe
+*.out
+build/
+
+# Database / data
+*.db
+*.sqlite3
+virtual_disk.bin
+data/uploads/
+
+# IDE / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Environment secrets
+.env
