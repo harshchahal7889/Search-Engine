@@ -1,4 +1,4 @@
-Semantic Search Engine — Project Abstract
+Semantic Search Engine — Project 
 
 Problem Statement
 Conventional file systems rely on exact filename or keyword matches for retrieval, forcing users to recall precise names or locations. As personal and organizational storage grows, this becomes inefficient and error-prone, especially when file content is more memorable than its name. There is a need for a file retrieval system that understands the meaning behind a user's query rather than just matching text patterns.
