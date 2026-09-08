@@ -5,7 +5,7 @@ Conventional file systems rely on exact filename or keyword matches for retrieva
 
 Objectives
 
-Design a simulated virtual file system with disk block management, disk scheduling (SSTF/C-SCAN), and ACL-based access control.
+Design a simulated virtual file system with disk block management, disk scheduling (SSTF/C-SCAN), and ACL-based access control(access control list).
 Build a DBMS layer to persist file metadata and vector embeddings for fast similarity search.
 Integrate an NLP-based semantic search engine using Sentence-Transformer embeddings and cosine similarity to rank files by relevance to natural-language queries.
 Combine the OS, DBMS, and NLP layers into a single end-to-end pipeline — from file upload/query input to ranked, permission-filtered results.
