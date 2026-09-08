@@ -1,0 +1,61 @@
+expected file structure for the engine 
+semantic-search-engine/
+│
+├── README.md
+├── .gitignore
+├── requirements.txt            
+│
+├── os_module/                    
+│   ├── include/
+│   │   ├── file_system.h
+│   │   ├── disk_block.h
+│   │   ├── disk_scheduler.h      
+│   │   └── access_control.h      
+│   ├── src/
+│   │   ├── file_system.cpp
+│   │   ├── disk_block.cpp
+│   │   ├── disk_scheduler.cpp
+│   │   ├── access_control.cpp
+│   │   └── main.cpp
+│   ├── build/                  
+│   └── CMakeLists.txt            
+│
+├── nlp_engine/                   
+│   ├── __init__.py
+│   ├── text_extractor.py         
+│   ├── embedder.py              
+│   ├── similarity.py           
+│   └── search_engine.py         
+│
+├── database/                    
+│   ├── schema.sql               
+│   ├── db_manager.py             
+│   └── models.py               
+│
+├── interface/                  
+│   ├── app.py                    
+│   ├── templates/               
+│   │   ├── index.html
+│   │   └── results.html
+│   └── static/                   
+│
+├── bridge/                      
+│   └── cpp_interface.py        
+│
+├── tests/
+│   ├── test_nlp_engine.py
+│   ├── test_database.py
+│   └── test_os_module.cpp
+│
+├── logs/                        
+│
+├── data/
+│   ├── uploads/                 
+│   └── virtual_disk.bin         
+│
+└── docs/
+    ├── architecture_diagram.png
+    ├── report/                   
+    │   ├── Phase-1.tex
+    │   └── my_pbl_presentation.tex
+    └── screenshots/
