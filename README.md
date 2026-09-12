@@ -22,3 +22,4 @@ NLP/AI layer — a Sentence-Transformer model (all-MiniLM-L6-v2) converts both s
 How it works end-to-end: a user uploads a file or types a natural-language query → the search controller routes it to either the file-ingestion path or the query path → the semantic search engine embeds the text and compares it against stored vectors → access control filters results by permission → the virtual file system/disk scheduler retrieves the actual blocks from the simulated disk → ranked results are returned with a query/access log entry.
 
 Why it matters: this mirrors real-world systems (like OS-level search indexing or enterprise document retrieval) while giving hands-on practice across OS, DBMS, and applied NLP — the exact intersection the PBL evaluation is meant to test.
+rag
